@@ -1,2 +1,4 @@
 # This is the ONLY line I've modified in this config-file.
+# Host is a Google Cloud virtual machine with nested virtualization enabled.
+
 Hypervisor=kvm
