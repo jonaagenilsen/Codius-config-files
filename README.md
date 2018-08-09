@@ -15,6 +15,7 @@ I always recommend [this excellent script for installing & maintaining your host
 
 ## Tips
 * This is not Windows. Rarely you resolve problems in Linux by rebooting.
+* Update your system often: `yum update`
 * `nano` is easier to use than `vi` for editing files: `yum install nano -y -q`
 * Remove junk and services not needed. For CentOS: `yum erase postfix` (mailserver).
 * ALWAYS firewall your SSH port.
