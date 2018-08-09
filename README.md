@@ -13,12 +13,12 @@ I always recommend [this excellent script for installing & maintaining your host
 
 [/etc/hyper/config](https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/etc/hyper/config)
 
-## Useful commands
 ## Tips
+* This is not Windows. Rarely you resolve problems in Linux by rebooting.
+* `nano` is easier to use than `vi` for editing files: `yum install nano -y -q`
+* Remove junk and services not needed. For CentOS: `yum erase postfix` (mailserver).
 * ALWAYS firewall your SSH port.
 * DO NOT enable root login if you aren't properly firewalled.
-* Remove junk and services not needed. For CentOS: `yum erase postfix` (mailserver).
-* `nano` is easier to use than `vi` for editing files: `yum install nano -y -q`
 
 ## Urls
 https://hodling-xrp.no/
