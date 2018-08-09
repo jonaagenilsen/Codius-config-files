@@ -1,5 +1,5 @@
 # Codius-config-files
-Just a collection of my (working) configs for my Codius host running v1.2.5
+Just a collection of my (working) configs for my Codius host running the latest version.
 
 ## General stuff
 My host is built on CentOS 7.5 and use default paths and commands for that system. Have that in mind if something is different on your system.
