@@ -16,6 +16,7 @@ I always recommend [this excellent script for installing & maintaining your host
 ## Tips
 * ALWAYS firewall your SSH port.
 * DO NOT enable root login if you aren't properly firewalled.
+* Remove junk and services not needed. For CentOS: `yum erase postfix` (mailserver).
 
 ## Urls
 https://hodling-xrp.no/
