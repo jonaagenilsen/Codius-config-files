@@ -14,7 +14,7 @@ I always recommend [this excellent script for installing & maintaining your host
 [/etc/hyper/config](https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/etc/hyper/config)
 
 ## Tips
-* If your host is a VM, it has to support [nested virtualization](https://ilp-ix.link/1-2-1-selftest-fix/)
+* If your host is a VM, it must support [nested virtualization](https://ilp-ix.link/1-2-1-selftest-fix/)
 * This is not Windows. Rarely you resolve problems in Linux by rebooting.
 * Update your system often: `yum update`
 * `nano` is easier to use than `vi` for editing files: `yum install nano -y -q`
