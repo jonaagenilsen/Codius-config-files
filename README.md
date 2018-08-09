@@ -6,8 +6,11 @@ My host is built on CentOS 7.5 and use default paths and commands for that syste
 
 ## Urls
 https://hodling-xrp.no/
+
 https://hodling-xrp.no/info
+
 https://hodling-xrp.no/version
+
 https://hodling-xrp.no/memory
 
 ## Installation
