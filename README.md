@@ -13,6 +13,10 @@ I always recommend [this excellent script for installing & maintaining your host
 
 [/etc/hyper/config](https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/etc/hyper/config)
 
+## Tips
+* ALWAYS firewall your SSH port.
+* DO NOT enable root login if you aren't properly firewalled.
+
 ## Urls
 https://hodling-xrp.no/
 
