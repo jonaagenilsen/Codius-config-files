@@ -21,5 +21,5 @@ https://hodling-xrp.no/version
 https://hodling-xrp.no/memory
 
 ## Installation
-I always recommend [this excellent script for installing and maintaining a Codius host](https://github.com/xrp-community/codius-install) made by 
+I always recommend [this excellent script for installing and maintaining a Codius host](https://github.com/xrp-community/codius-install) made by [Baltazar](https://twitter.com/baltazar223)
 My hosts are based on this and works perfectly.
