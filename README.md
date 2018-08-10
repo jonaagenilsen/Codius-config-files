@@ -16,6 +16,7 @@ I always recommend [this excellent script for installing & maintaining your host
 ## Tips
 * Recommended: host your server on [Google Cloud: "Free 12 Months or $300 free credit to get started with any GCP product"](https://cloud.google.com/free/).
 * If your host is a VM, it must support [nested virtualization](https://ilp-ix.link/1-2-1-selftest-fix/)
+* Change hostname with `hostnamectl set-hostname YourHostnameHere`(equal to `CODIUS_PUBLIC_URI`in codiusd config file).
 * This is not Windows. Rarely you resolve problems in Linux by rebooting.
 * Update your system often: `yum update`
 * `nano` is easier to use than `vi` for editing files: `yum install nano -y -q`
