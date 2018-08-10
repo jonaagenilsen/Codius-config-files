@@ -24,7 +24,7 @@ I always recommend [this excellent script for installing & maintaining your host
 * DO NOT enable root login if you aren't properly firewalled.
 
 ## Urls
-https://hodling-xrp.no/{:target="_blank"}
+[https://hodling-xrp.no/](https://hodling-xrp.no/){:target="_blank"}
 
 https://hodling-xrp.no/info
 
