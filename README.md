@@ -31,3 +31,5 @@ https://hodling-xrp.no/info
 https://hodling-xrp.no/version
 
 https://hodling-xrp.no/memory
+
+jQuery(document).ready(function($){$('.gist-meta').find('a').attr('target', '_blank'); });
