@@ -11,8 +11,6 @@ Environment=CODIUS_XRP_PER_MONTH=10
 Environment=CODIUS_MAX_MEMORY_FRACTION=0.97
 Environment=CODIUS_ADDITIONAL_HOST_INFO=true
 Environment=CODIUS_DISABLE_SELF_TEST=false
-Environment=CODIUS_ADMIN_API=true
-Environment=CODIUS_ADMIN_PORT=3001
 Restart=always
 StandardOutput=syslog
 StandardError=syslog
