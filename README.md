@@ -14,7 +14,7 @@ I always recommend [this excellent script for installing & maintaining your host
 [/etc/hyper/config](https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/etc/hyper/config)
 
 ## Tips
-* Host your server on [https://cloud.google.com/free/](Google Cloud: "Free 12 Months or $300 free credit to get started with any GCP product").
+* Host your server on [Google Cloud: "Free 12 Months or $300 free credit to get started with any GCP product"](https://cloud.google.com/free/).
 * If your host is a VM, it must support [nested virtualization](https://ilp-ix.link/1-2-1-selftest-fix/)
 * This is not Windows. Rarely you resolve problems in Linux by rebooting.
 * Update your system often: `yum update`
