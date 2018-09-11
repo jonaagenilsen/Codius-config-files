@@ -2,3 +2,4 @@
 # Host is a Google Cloud virtual machine with nested virtualization enabled.
 
 Hypervisor=kvm
+BridgeIP=10.0.0.0/19
