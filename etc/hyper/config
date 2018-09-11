@@ -1,5 +1,5 @@
 # This is the ONLY line I've modified in this config-file.
-# Host is a Google Cloud virtual machine with nested virtualization enabled.
+# If you make any changes to YOUR config, restart host after edit.
 
 Hypervisor=kvm
 BridgeIP=10.0.0.0/19
