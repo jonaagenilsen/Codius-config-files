@@ -1,3 +1,11 @@
+<script src="https://polyfill.webmonetization.org/polyfill.js"></script>
+<script src="https://cdn.coil.com/donate.js"></script>
+<script>
+window.WebMonetizationScripts.donate({
+   paymentPointer: '$twitter.xrptipbot.com/jonaagenilsen'
+})
+</script>
+
 # Codius-config-files
 Just a collection of my (working) configs for my Codius host running the latest version.
 
