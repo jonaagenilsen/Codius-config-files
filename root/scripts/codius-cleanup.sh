@@ -25,5 +25,5 @@ rm -rf /var/log/hyper/qemu/*.log
 #systemctl start nginx
 systemctl start hyperd
 #systemctl start moneyd-xrp
-sleep 30
+sleep 5
 systemctl start codiusd
