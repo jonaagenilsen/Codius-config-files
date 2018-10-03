@@ -3,8 +3,10 @@
 # (c) jonaagenilsen@gmail.com / https://twitter.com/jonaagenilsen
 #
 # Check if Hyperd has any updates. If true, download, and give tips on upgrading.
+#
+# Usage:
 # - Save script in /root/scripts/check_update_hyperd.sh
-# - chmod 700 /root/scripts/check_update_hyperd.sh
+# - Set execute rights: chmod 700 /root/scripts/check_update_hyperd.sh
 #
 # Start it: /root/scripts/check_update_hyperd.sh
 
