@@ -14,6 +14,7 @@ I always recommend [this excellent script for installing & maintaining your host
 [/etc/hyper/config](https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/etc/hyper/config)
 
 ## Scripts
+[/root/scripts/check_update_hyperd.sh](https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/root/scripts/check_update_hyperd.sh)
 
 ## Tips
 * Recommended: host your server on [Google Cloud: "Free 12 Months or $300 free credit to get started with any GCP product"](https://cloud.google.com/free/).
