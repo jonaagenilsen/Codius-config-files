@@ -1,9 +1,9 @@
 # Stop services
 systemctl daemon-reload
-systemctl stop codiusd.service
-systemctl stop moneyd-xrp
+systemctl stop codiusd
+#systemctl stop moneyd-xrp
 systemctl stop hyperd
-systemctl stop nginx
+#systemctl stop nginx
 
 # Take down interfaces for Codius/Hyperd before cleaning.
 ifconfig codius0 down
@@ -22,8 +22,8 @@ rm -rf /run/hyper/*
 rm -rf /var/log/hyper/qemu/*.log
 
 # Start everything again
-systemctl start nginx
+#systemctl start nginx
 systemctl start hyperd
-systemctl start moneyd-xrp
+#systemctl start moneyd-xrp
 sleep 30
-systemctl start codiusd.service
+systemctl start codiusd
