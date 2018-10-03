@@ -16,6 +16,13 @@ I always recommend [this excellent script for installing & maintaining your host
 ## Scripts
 [/root/scripts/check_update_hyperd.sh](https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/root/scripts/check_update_hyperd.sh)
 
+```
+mkdir /root/scripts -p
+wget https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/root/scripts/check_update_hyperd.sh -O /root/scripts/check_update_hyperd.sh
+chmod 700 /root/scripts/check_update_hyperd.sh
+/root/scripts/check_update_hyperd.sh
+```
+
 ## Tips
 * Recommended: host your server on [Google Cloud: "Free 12 Months or $300 free credit to get started with any GCP product"](https://cloud.google.com/free/).
 * If your host is a VM, it must support [nested virtualization](https://ilp-ix.link/1-2-1-selftest-fix/)
