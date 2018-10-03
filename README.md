@@ -18,7 +18,8 @@ I always recommend [this excellent script for installing & maintaining your host
 
 ```
 mkdir /root/scripts -p
-wget https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/root/scripts/check_update_hyperd.sh -O /root/scripts/check_update_hyperd.sh
+wget https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/root/scripts/check_update_hyperd.sh \
+-O /root/scripts/check_update_hyperd.sh
 chmod 700 /root/scripts/check_update_hyperd.sh
 /root/scripts/check_update_hyperd.sh
 ```
