@@ -19,9 +19,9 @@ else
   echo -e "new version available: \e[0;32m$HYPERD_LATEST\e[0m. Currently installed: \e[31m$HYPERD_INSTALLED\e[0m"
   echo -e -n ".. Downloading \e[0;32m$HYPERD_LATEST\e[0m "
   echo -n "."
-  wget https://hypercontainer-download.s3-us-west-1.amazonaws.com/1.1/centos/hyperstart-${HYPERD_LATEST}-1.el7.x86_64.rpm -P /tmp/ -q
+  wget https://hypercontainer-download.s3-us-west-1.amazonaws.com/1.1/centos/hyperstart-${HYPERD_LATEST}-1.el7.x86_64.rpm -P /tmp/ -q -N
   echo -n "."
-  wget https://hypercontainer-download.s3-us-west-1.amazonaws.com/1.1/centos/hyper-container-${HYPERD_LATEST}-1.el7.x86_64.rpm -P /tmp/ -q
+  wget https://hypercontainer-download.s3-us-west-1.amazonaws.com/1.1/centos/hyper-container-${HYPERD_LATEST}-1.el7.x86_64.rpm -P /tmp/ -q -N
   echo " Done!"
   echo
   echo -e "Update with: \e[0;32mrpm -Uvh /tmp/hyperstart-${HYPERD_LATEST}-1.el7.x86_64.rpm /tmp/hyper-container-${HYPERD_LATEST}-1.el7.x86_64.rpm\e[0m"
