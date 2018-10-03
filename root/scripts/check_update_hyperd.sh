@@ -4,10 +4,11 @@
 #
 # Check if Hyperd has any updates. If true, download, and give tips on upgrading.
 #
-# mkdir /root/scripts -p
-# wget https://raw.githubusercontent.com/jonaagenilsen/Codius-config-files/master/root/scripts/check_update_hyperd.sh -O /root/scripts/check_update_hyperd.sh -N
-# chmod 700 /root/scripts/check_update_hyperd.sh
-# /root/scripts/check_update_hyperd.sh
+# Usage:
+# - Save script in /root/scripts/check_update_hyperd.sh
+# - Set execute rights: chmod 700 /root/scripts/check_update_hyperd.sh
+#
+# Start it: /root/scripts/check_update_hyperd.sh
 
 echo -e -n "Checking if new versions are available for Hyperd: "
 HYPERD_LATEST="`curl --silent "https://api.github.com/repos/hyperhq/hyperd/releases/latest" | grep -Po '"tag_name": "v\K.*?(?=")'`"
